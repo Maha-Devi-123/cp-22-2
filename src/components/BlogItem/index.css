@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.ul-can {
+  list-style: none;
+  padding: 10px;
+}
+.name-time-can {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.time {
+  color: #616e7c;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .time {
+    font-size: 13px;
+  }
+}

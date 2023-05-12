@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.user-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.user-prof {
+  color: #9aa5b1;
+  font-size: 14px;
+  font-weight: 500;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .user-name {
+    font-size: 15px;
+  }
+  .user-prof {
+    font-size: 12px;
+  }
+}

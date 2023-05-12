@@ -1,0 +1,16 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profile-pic {
+  width: 150px;
+}
+
+@media (max-width: 756px) {
+  .profile-pic {
+    width: 80px;
+  }
+}
